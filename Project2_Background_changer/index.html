@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>background changer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="color_changer">
+
+        <span class="white" id="btn" onclick="change('white')"></span>
+        <span class="black" id="btn" onclick="change('black')"></span>
+        <span class="green" id="btn" onclick="change('green')"></span>
+        <span class="tomato" id="btn" onclick="change('tomato')"></span>
+
+
+
+    </div>
+
+    <h1 id="txt">About</h1>
+    <img src="bg3.png">
+
+    <p id="text">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, id non laudantium ipsum nulla molestias
+        consequatur iusto voluptatum iste quaerat at, magni adipisci recusandae unde ducimus minima sequi quam odit
+        facilis quas ratione commodi fugit tempore dolorum. At quas dignissimos ad, fuga voluptatem sint repellendus
+        quod nobis voluptates ea sunt impedit numquam asperiores laboriosam dolorem sit delectus error quisquam, animi
+        totam atque repudiandae, accusamus nam. Facere itaque vel sunt aliquam fuga sint provident consequuntur eaque
+        eum id consectetur quae quia, inventore tempora dolorem veniam ipsam totam voluptatibus exercitationem
+        consequatur eos tempore ea repellat dolore. Aliquid culpa, enim doloremque excepturi tempora iste ab in porro
+        non, amet omnis, incidunt possimus magni molestiae odit ut dignissimos repudiandae? Cum saepe vitae, doloremque
+        alias natus esse voluptas laudantium omnis necessitatibus asperiores blanditiis perspiciatis ut, debitis labore
+        tenetur temporibus quo assumenda illo, eligendi ipsum reiciendis excepturi possimus nobis. Assumenda natus totam
+        magni in blanditiis suscipit sequi dignissimos, corrupti mollitia, cumque consequuntur rem velit minus, magnam
+        laborum veniam saepe quasi maxime nisi animi obcaecati provident! Est quis tenetur nostrum recusandae ducimus
+        optio nulla rem necessitatibus. Quo, exercitationem expedita? Iste aspernatur magni nobis suscipit? Quidem
+        voluptatibus exercitationem, deserunt voluptatem suscipit repudiandae et tempora optio, nulla eius dignissimos
+        officiis, laboriosam nam quos cupiditate aliquam a saepe distinctio labore? Hic ab facere corporis magni, sed
+        suscipit quod beatae repellendus alias incidunt minus nulla rem minima unde, dolores quasi quidem dolore
+        reprehenderit ut quos magnam. Omnis, exercitationem doloremque. Quisquam nostrum sequi, esse doloribus, quis
+        totam quibusdam numquam quod ab quasi ut officiis nemo atque quidem perferendis odio eos, rerum voluptatum quo
+        fugit harum ex error. Voluptatum tenetur, placeat reprehenderit cumque officia veritatis nisi odit soluta
+        laudantium adipisci nobis quia vitae distinctio? Deserunt sequi magnam magni rem nemo voluptatem quibusdam? Eos
+        id inventore laboriosam autem ratione provident, accusantium quaerat, aliquam quisquam vel officia nihil maiores
+        optio incidunt consectetur quasi. Rerum, illo. Illo assumenda veritatis eius nam officia voluptate odio dolores
+        quidem? Esse iure sapiente quae. Quis corporis, explicabo voluptatum repellendus illum quasi. Explicabo magni
+        officia error mollitia dolor accusamus saepe reprehenderit minus enim a, quae minima dicta eum ipsa sapiente id
+        cum molestiae architecto neque perspiciatis quas necessitatibus aut eligendi! Quas, numquam commodi. Debitis
+        quas placeat perferendis explicabo unde dolore praesentium molestias iste! Unde hic consectetur fuga quae, sunt
+        quia nostrum amet? Repellendus impedit deleniti enim quaerat accusamus provident et quas facere eos nobis aut
+        placeat consequuntur rem similique, corrupti nihil expedita ipsum. Veritatis a beatae eius vel ea? Explicabo
+        cumque, ducimus, magnam optio rerum doloribus pariatur facere hic veritatis totam quae nemo quis repudiandae
+        repellat expedita debitis voluptas temporibus iste? Quas iusto corrupti cum possimus ipsam. Neque perspiciatis
+        hic, aliquid perferendis unde, harum facilis adipisci officia qui ut nostrum cupiditate esse voluptatem minima
+        nulla, aspernatur cum! Commodi quas quia praesentium nobis ea dolores minus, exercitationem in recusandae ullam
+        nemo! Id expedita aut molestiae sequi repellendus esse harum, ratione non doloremque necessitatibus sint eveniet
+        obcaecati voluptate totam, quas officia consequatur, dolore ab nobis! Minima vitae distinctio est magnam aut
+        praesentium. Minima.
+    </p>
+
+    <script>
+
+        function change(color) {
+
+            document.body.style.backgroundColor = color;
+            var h = document.getElementById("text");
+            if (color == 'black') {
+
+                h.style.color = 'white';
+               
+            }
+             else if (color == 'white') {
+
+                h.style.color = 'black';
+            }
+            var p = document.getElementById("txt");
+            if (color == 'black') {
+
+                p.style.color = 'white';
+            }
+            else if (color == 'white') {
+
+                p.style.color = 'black';
+            }
+        }
+
+    </script>
+
+</body>
+
+</html>
